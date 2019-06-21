@@ -37,10 +37,10 @@ commands
 
     docker exec -it [containerid] /bin/bash
 
-#run the script , by passing movie name as an argument
+#run the script , by passing movie name as an argument, note instead of python , we would be using command python3
 
 
-    python Imdb3.py Avengers
+    python3 Imdb3.py Avengers
 
 
 #expected output
@@ -49,5 +49,12 @@ commands
     Movie Name ==>Avengers
     Rotten Tomatoes Ratings -->92%
 
+#Error Handled
+    
+    API Key Wrong
+    Movie name not found
+    Rotten Tomatoes ratings not present
+    URL is not responding 
+    No Ratings are present
 
 
