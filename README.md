@@ -2,13 +2,15 @@
 This utility will let you know the rating of movies.
 
 Prerequisite:
-Docker environment is setup at the user end.
+
+
+    Docker environment is setup at the user end.
 
 How to run this utility?
 
-Log in to your docker account 
+    Log in to your docker account 
 
-run command 
+commands 
 
 #This will pull the image where the script is present
 
