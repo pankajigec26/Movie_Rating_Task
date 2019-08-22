@@ -37,8 +37,10 @@ class imdb:
             print ("Ratings not avialable")
 
    
-if len(sys.argv) == 1:
-    raise Exception('Please provide movie name as an argument')
-else:
-    movie = imdb(sys.argv[1])
+
+if __name__ == "__main__":
+    if len(sys.argv) == 1:
+        raise Exception('Please provide movie name as an argument')
+    else:
+        movie = imdb(sys.argv[1])
     movie.parse_data()
